@@ -81,7 +81,8 @@ com.example.Quizzy Kids/
 ---
 🙋‍♂️ About Me
 Hi! I'm Muqeet Ahmad, an aspiring Android developer building educational apps to help young learners.
-Connect with me on LinkedIn(https://www.linkedin.com/in/muqeet-ahmad-4432aa352/)
+
+Connect with me on [LinkedIn](https://www.linkedin.com/in/muqeet-ahmad-4432aa352/) 
 
 
 
