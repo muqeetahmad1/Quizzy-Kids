@@ -13,6 +13,8 @@
   - English
 - ⏱️ 15-minute countdown timer per quiz
 - 📊 Real-time question tracking (e.g., Question 4/20)
+-  Online Questions Source
+- Quiz data stored and managed via Firebase Console
 - ⚫ Clean UI with black option boxes and white text
 - 🔁 Progress line under question numbers that fills as you go
 - ✅ Grey highlight for selected options
@@ -21,6 +23,16 @@
 - 🧾 End screen showing:
   - Score percentage
   - Pass/Fail result
+
+---
+
+## 🔗 Firebase Integration
+
+This app uses **Firebase Console** to manage and fetch quiz data online. This allows for:
+
+- Centralized updates to quiz questions without releasing a new app version
+- Lightweight local app with real-time data retrieval
+- Easy expansion to support user data and analytics in the future
 
 ---
 
@@ -67,7 +79,9 @@ com.example.Quizzy Kids/
    - Know whether you **passed or failed**
 
 ---
-
+🙋‍♂️ About Me
+Hi! I'm Muqeet Ahmad, an aspiring Android developer building educational apps to help young learners.
+Connect with me on LinkedIn(https://www.linkedin.com/in/muqeet-ahmad-4432aa352/)
 
 
 
