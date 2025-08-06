@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity2">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/question_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Question 9/50"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"/>
+        <ImageView
+            android:id="@+id/time_img_id"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/timer"
+            android:layout_marginEnd="4dp"
+            android:layout_toStartOf="@id/time_id_text"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:id="@+id/time_id_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="7:49"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+<com.google.android.material.progressindicator.LinearProgressIndicator
+    android:id="@+id/progress_indicator"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="10dp"
+    app:indicatorColor="@color/black"
+    tools:progress="80"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="10dp"
+        android:elevation="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            tools:text="qwertyu"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="7dp"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginVertical="20dp"
+
+            />
+
+            <Button
+                android:id="@+id/option1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:backgroundTint="@color/black"
+                tools:text="Ans A"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:paddingVertical="15dp"/>
+            <Button
+                android:id="@+id/option2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:backgroundTint="@color/black"
+                tools:text="Ans B"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:paddingVertical="15dp"/>
+            <Button
+                android:id="@+id/option3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:backgroundTint="@color/black"
+                tools:text="Ans C"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:paddingVertical="15dp"/>
+            <Button
+                android:id="@+id/option4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:backgroundTint="@color/black"
+                tools:text="Ans D"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:paddingVertical="15dp"/>
+            <Button
+                android:id="@+id/next_option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:backgroundTint="@color/black"
+                android:text="NEXT"
+                android:textColor="@color/white"
+                android:layout_gravity="end"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:paddingVertical="15dp"
+                android:paddingHorizontal="50dp"
+                />
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
+
+
+
